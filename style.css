@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&family=VT323&display=swap');
+
+* {
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'VT323', monospace;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    background-color: rgb(27, 30, 28);
+    height: 100vh;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+}
+
+.version {
+    text-align: right;
+}
+
+code {
+    white-space: pre;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.red {
+    color: rgb(209, 59, 59)
+}
+
+.blue {
+    color: rgb(123, 154, 255)
+}
+
+.text1 {
+    color: rgb(209, 59, 59);
+}
+
+.text2 {
+    color: rgb(123, 154, 255)
+}
+
+.separator {
+    width: 100%;
+    overflow: hidden;
+}
